@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% block body %}
+  
+
+<div class="container my-3">
+        <h2>Add to todo</h2>
+        <br>
+        <form action="/" method="POST">
+            <div class="mb-3">
+              <label for="title" class="form-label">ToDo title</label>
+              <input type="text" class="form-control" name="title" id="title">
+            </div>
+            <div class="mb-3">
+              <label for="desc" class="form-label">ToDo description</label>
+              <input type="text" class="form-control" name="desc" id="desc">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+  
+{% endblock body %}
