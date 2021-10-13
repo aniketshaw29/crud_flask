@@ -28,11 +28,6 @@ def home():
 
     return render_template('home.html')
 
-@app.route("/showme")
-def show():
-    
-    return "<h1>Hello son</h1>"
-
 @app.route("/show")
 def show():
     allTodo = Todo.query.all()
