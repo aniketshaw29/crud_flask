@@ -31,7 +31,7 @@ def home():
 @app.route("/show")
 def show():
     allTodo = Todo.query.all()
-    return render_template('showdata.html',all_Todos=allTodo)
+    return render_template('showData.html',all_Todos=allTodo)
 
 @app.route("/update/<int:sno>", methods=['GET', 'POST'])
 def update(sno):
