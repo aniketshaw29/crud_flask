@@ -1,7 +1,0 @@
-this is how you can download files from client side 
-
-suppose you hit local host and
-
-http://127.0.0.1:5000/static/filename
-
-hitting this url will download the file with the same file name prrsent in the static folder
